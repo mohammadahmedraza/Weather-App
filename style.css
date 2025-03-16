@@ -1,0 +1,50 @@
+body{
+    background-color: lightskyblue;
+    color: greenyellow;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 200px;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+#input{
+    width:30%;
+    padding: 3px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: 1px solid lightskyblue;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.parent{
+    margin-top: 10vh;
+}
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+.display-4 {
+    font-weight: 200;
+    color: #007bff;
+}
+#show img {
+    filter: drop-shadow(0 0 10px #0000001a);
+}
+.highlight {
+    color: #ff5722;
+}
+@media (max-width:768px){
+   #input{
+        font-size: 1.1rem;
+    }   
+}
